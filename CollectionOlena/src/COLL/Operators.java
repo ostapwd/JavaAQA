@@ -7,18 +7,16 @@ public class Operators {
 		Random random = new Random ();
 		
 		int arrayleng = 1000;
-		
 
 		int[] array = new int[arrayleng];
 
 		for (int i = 0; i < arrayleng ; i++) {
-			array[i] = random.nextInt(1000);
+			array[i] = random.nextInt(arrayleng);
 		}
 
 		
 		for (int i = 0; i < arrayleng; i++) {
-
-			//System.out.println(array[i]);
+			System.out.println(array[i]);
 		}
 		
 		int sum = 0;
