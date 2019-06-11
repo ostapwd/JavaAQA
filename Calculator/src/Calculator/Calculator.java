@@ -2,7 +2,6 @@ package Calculator;
 
 public class Calculator {
 	public static void main(String[] args) {
-		
 		int res = add(40, 10);
 		System.out.println("result received from add() function call + " + res);
 		
@@ -69,3 +68,5 @@ public class Calculator {
 		return result;
 	}
 }
+
+
