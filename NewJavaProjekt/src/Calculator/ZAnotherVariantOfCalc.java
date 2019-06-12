@@ -2,8 +2,7 @@ package Calculator;
 
 import javax.swing.JOptionPane;
 
-public class RunCalculator {
-
+public class ZAnotherVariantOfCalc {
 	public static void main(String[] args) {
 
 		double[] arrayresult = new double[10];
@@ -11,14 +10,15 @@ public class RunCalculator {
 		boolean command3res;
 		do {
 			if (i >= 1) {
-				String command4 = JOptionPane.showInputDialog("Do you want to print your results? Y/N");
+				String command4 = JOptionPane
+						.showInputDialog("Select a command:+, -, *,\n \"Do you want to print your results? Y/N\"");
 				if (command4.equals("Y")) {
 					for (i = 0; i <= arrayresult.length; i++) {
 						System.out.println(arrayresult[i]);
 					}
 				}
 			}
-			String command = JOptionPane.showInputDialog("Select a command:");
+			String command = JOptionPane.showInputDialog("Select a command:+, -, *, /");
 
 			if (!command.equals("/") && !command.equals("*") && !command.equals("-") && !command.equals("+")) {
 				String command2 = JOptionPane.showInputDialog(
