@@ -42,6 +42,11 @@ public class fourthcl {
 
 			System.out.println(arr[i]);
 
+
+		
+		
+			
+			
 		}
 
 	}
