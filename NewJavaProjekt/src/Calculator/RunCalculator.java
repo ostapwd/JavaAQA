@@ -26,7 +26,7 @@ public static void main(String[] args) {
 					}
 				}
 			}
-			String command = JOptionPane.showInputDialog("Select a command:");
+			String command = JOptionPane.showInputDialog(null,"Select a command:","My tytle",1);
 
 			if (!command.equals("/") && !command.equals("*") && !command.equals("-") && !command.equals("+")) {
 				String command2 = JOptionPane.showInputDialog(
