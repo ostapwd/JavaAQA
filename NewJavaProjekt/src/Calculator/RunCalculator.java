@@ -3,17 +3,25 @@ package Calculator;
 import javax.swing.JOptionPane;
 
 public class RunCalculator {
+public static void main(String[] args) {
+	RunCalculator calculator1 = new RunCalculator();
+	RunCalculator calculator2 = new RunCalculator();
+	calculator1.start();
+//	calculator2.start();
+//	calculator1.start();
+//	calculator2.start();
+}
+    double[] arrayresult = new double[10];
+	public void start() {
 
-	public static void main(String[] args) {
-
-		double[] arrayresult = new double[10];
+		
 		int i = 0;
 		boolean command3res;
 		do {
 			if (i >= 1) {
 				String command4 = JOptionPane.showInputDialog("Do you want to print your results? Y/N");
 				if (command4.equals("Y")) {
-					for (i = 0; i <= arrayresult.length; i++) {
+					for (i = 0; i < arrayresult.length; i++) {
 						System.out.println(arrayresult[i]);
 					}
 				}
@@ -44,12 +52,14 @@ public class RunCalculator {
 				result = Calculator.division(a, b);
 				System.out.println(result);
 			}
+			System.out.println(i);
 			arrayresult[i] = result;
 			i++;
 			String command3 = JOptionPane.showInputDialog("Want to continue working with calculator? (Y/N)");
 			command3res = command3.equals("Y");
 		} while (command3res);
 
-		System.out.println(arrayresult[2]);
+		System.out.println(arrayresult[i]);
 	}
 }
+
