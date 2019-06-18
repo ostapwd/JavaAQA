@@ -25,6 +25,8 @@ public class Calc {
 
 			double a = Double.parseDouble(number1);
 			double b = Double.parseDouble(number2);
+			
+			int number = Integer.parseInt();
 
 			System.out.println(a);
 			System.out.println(b);

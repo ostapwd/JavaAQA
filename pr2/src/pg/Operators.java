@@ -3,6 +3,10 @@ package pg;
 import java.util.Random;
 
 public class Operators {
+	public static String[] search(String[] arrayToSearchIn, String searchCriteria) {
+		return null;
+		
+	}
 	public static void main(String[] args) {
 
 		Random random = new Random();
