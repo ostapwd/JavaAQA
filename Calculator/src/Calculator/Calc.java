@@ -27,7 +27,7 @@ public class Calc {
 
 		do {
 
-			String command = JOptionPane.showInputDialog("Select a command:");
+			String command = JOptionPane.showInputDialog(null, "Select a command:");
 			if (command.equals("Exit")) {
 				return;
 			}
