@@ -2,6 +2,8 @@ package Calculator;
 
 import javax.swing.JOptionPane;
 
+import lesson2006.DoubleArray;
+
 public class Calc {
 	public static void main(String[] args) {
 
@@ -17,7 +19,7 @@ public class Calc {
 
 	}
 
-	double[] results = new double[10];
+	DoubleArray [] results = new DoubleArray[10];
 
 	public void start() {
 

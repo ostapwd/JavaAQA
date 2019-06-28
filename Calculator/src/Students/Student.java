@@ -1,6 +1,6 @@
 package Students;
 
-public class Students {
+public class Student {
 	
 	public String firstName;
 	public String lastName;
@@ -10,11 +10,11 @@ public class Students {
 	public int[] marksArray = new int [5];
 	private int index = 0;
 	
-	public Students() {
+	public Student() {
 		
 	}
 	
-	public Students(String firstNameToSet, String lastNameToSet, String facultyToSet, int courseToSet) {
+	public Student(String firstNameToSet, String lastNameToSet, String facultyToSet, int courseToSet) {
 		firstName = firstNameToSet;
 		lastName = lastNameToSet;
 		faculty = facultyToSet;
